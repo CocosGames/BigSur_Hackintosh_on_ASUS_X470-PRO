@@ -218,6 +218,24 @@
 		<key>Add</key>
 		<array>
 			<dict>
+                			<key>Arch</key>
+                			<string>x86_64</string>
+                			<key>BundlePath</key>
+                			<string>RealtekRTL8111.kext</string>
+                			<key>Comment</key>
+                			<string>Intel Ethernet LAN</string>
+                			<key>Enabled</key>
+                			<true/>
+                			<key>ExecutablePath</key>
+                			<string>Contents/MacOS/RealtekRTL8111</string>
+                			<key>MaxKernel</key>
+                			<string></string>
+                			<key>MinKernel</key>
+                			<string>12.0.0</string>
+                			<key>PlistPath</key>
+                			<string>Contents/Info.plist</string>
+            			</dict>
+			<dict>
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
@@ -271,22 +289,6 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-			<dict>
-                   	<key>BundlePath</key>
-                    <string>SmallTree-Intel-211-AT-PCIe-GBE.kext</string>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/SmallTree-Intel-211-AT-PCIe-GBE</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                </dict>
 			<dict>
 				<key>Arch</key>
 				<string>x86_64</string>
@@ -357,28 +359,7 @@
 			<string></string>
 		</dict>
 		<key>Force</key>
-		<array>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>System/Library/Extensions/IONetworkingFamily.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/IONetworkingFamily</string>
-				<key>Identifier</key>
-				<string>com.apple.iokit.IONetworkingFamily</string>
-				<key>MaxKernel</key>
-				<string>13.99.99</string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-		</array>
+		<array/>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -1879,7 +1860,7 @@
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>Builtin</string>
+			<string>External</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -1906,7 +1887,7 @@
 			<key>SysReport</key>
 			<true/>
 			<key>Target</key>
-			<integer>75</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -2032,7 +2013,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 npci=0x3000 nvda_drv=1 msibase=0x90 alcid=2 -no_compat_check debug=0x100</string>
+				<string>keepsyms=1 npci=0x3000 nvda_drv=1 msibase=0x90 alcid=2 -no_compat_check debug=0x100</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
@@ -2103,7 +2084,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>D25412403QXF8YL1F</string>
+			<string>C028523104NJG36UE</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -2115,11 +2096,11 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBook7,1</string>
+			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string>450420J0F5X</string>
+			<string>C02XWWYJHX87</string>
 			<key>SystemUUID</key>
-			<string>91D4931B-CDA2-4A51-84AE-049CCEDC530F</string>
+			<string>DD48A56B-3513-4A35-B87B-8FBCC36A85BE</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -2172,6 +2153,7 @@
 			<string>OpenRuntime.efi</string>
 			<string>OpenCanopy.efi</string>
 			<string>AudioDxe.efi</string>
+			
 		</array>
 		<key>Input</key>
 		<dict>
