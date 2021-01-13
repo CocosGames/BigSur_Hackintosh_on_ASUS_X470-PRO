@@ -10,7 +10,7 @@ This is my snapshot of **EFI** volume for OpenCore BigSur based Hackintosh on th
 * motherboard: ASUS X470-PRO
 * CPU: AMD Ryzen 7 3700X (`17h`)
 * memory: 48GB
-* network adapter: Realtek 1000M (embedded)
+* network adapter: Realtek PCIe GBE Family 1KM (embedded)
 * GPU: AMD Radeon VII 16GB
 * USB 3.1
 * Colorful SSD (MacOS 11.1 Big Sur) + Intel NVMe M.2 (Windows 10)
