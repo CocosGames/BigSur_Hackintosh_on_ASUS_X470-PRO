@@ -1,7 +1,7 @@
 # Copyrights 
 
 ## OpenCore
-https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.3
+https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.5
 
 ```
 Copyright (c) 2016-2017, The HermitCrabs Lab

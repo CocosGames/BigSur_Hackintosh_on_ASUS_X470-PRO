@@ -12,15 +12,15 @@ This is my snapshot of **EFI** volume for OpenCore BigSur based Hackintosh on th
 * memory: 48GB
 * network adapter: Realtek PCIe GBE Family 1KM (embedded)
 * GPU: AMD Radeon VII 16GB
-* USB 3.1
+* USB 2.x + 3.1
 * Colorful SSD (MacOS 11.1 Big Sur) + Intel NVMe M.2 (Windows 10)
+* double screen displayers with their both resolutions perfect.
 
 ## Boot
+TUF-X470-PLUS-GAMING-SI-5809.CAP
 BIOS with Virtual Core / Fast Boot / CMS / Secure Boot disabled
-OpenCore 6.3 + vanilla
+OpenCore 6.5 + vanilla
 
-## App (not in git)
-EasyRes
+## App
+RDM
 Hackintool
-DiskGenius
-
