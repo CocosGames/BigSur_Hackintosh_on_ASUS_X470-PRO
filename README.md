@@ -4,7 +4,6 @@
 Most of the repo consists of files not created by me - this is only compilation. See COPYRIGHTS.md
 
 ## Setup description
-
 This is my snapshot of **EFI** volume for OpenCore BigSur based Hackintosh on the following setup:
 
 * motherboard: ASUS X470-PRO
@@ -17,10 +16,10 @@ This is my snapshot of **EFI** volume for OpenCore BigSur based Hackintosh on th
 * double screen displayers with their both resolutions perfect.
 
 ## Boot
-TUF-X470-PLUS-GAMING-SI-5809.CAP
-BIOS with Virtual Core / Fast Boot / CMS / Secure Boot disabled
-OpenCore 6.5 + vanilla
+* BIOS TUF-X470-PLUS-GAMING-SI-5204.CAP
+* Virtual Core / Fast Boot / CMS / Secure Boot disabled
+* OpenCore 6.5 + vanilla
 
 ## App
-RDM
-Hackintool
+* RDM
+* Hackintool
