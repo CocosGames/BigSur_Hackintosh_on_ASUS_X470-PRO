@@ -2262,8 +2262,6 @@
 			<false/>
 			<key>AppleDebugLog</key>
 			<true/>
-			<key>AppleEvent</key>
-			<false/>
 			<key>AppleFramebufferInfo</key>
 			<false/>
 			<key>AppleImageConversion</key>
